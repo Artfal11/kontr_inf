@@ -17,21 +17,21 @@ public class Main {
         Calling call3 = new Calling(4);
         Calling call4 = new Calling(3, ElevatorType.EMPLOYEE);
         Calling call5 = new Calling(2);
-        Calling call6 = new Calling(1);
-        Calling call7 = new Calling(5);
-        Calling call8 = new Calling(4);
-        Calling call9 = new Calling(3, ElevatorType.EMPLOYEE);
-        Calling call10 = new Calling(2);
-        Calling call11 = new Calling(1);
-        Calling call12 = new Calling(5);
-        Calling call13 = new Calling(4);
-        Calling call14 = new Calling(3, ElevatorType.EMPLOYEE);
-        Calling call15 = new Calling(2);
-        Calling call16 = new Calling(1);
-        Calling call17 = new Calling(5);
-        Calling call18 = new Calling(4);
-        Calling call19 = new Calling(3, ElevatorType.EMPLOYEE);
-        Calling call20 = new Calling(2);
+        Calling call6 = new Calling(13);
+        Calling call7 = new Calling(7);
+        Calling call8 = new Calling(6);
+        Calling call9 = new Calling(7, ElevatorType.EMPLOYEE);
+        Calling call10 = new Calling(14);
+        Calling call11 = new Calling(3);
+        Calling call12 = new Calling(7);
+        Calling call13 = new Calling(12);
+        Calling call14 = new Calling(5, ElevatorType.EMPLOYEE);
+        Calling call15 = new Calling(4);
+        Calling call16 = new Calling(9);
+        Calling call17 = new Calling(7);
+        Calling call18 = new Calling(6);
+        Calling call19 = new Calling(2, ElevatorType.EMPLOYEE);
+        Calling call20 = new Calling(6);
 
         oddElev.free().call(call1);
         oddElev.free().call(call2);
@@ -52,6 +52,6 @@ public class Main {
         oddElev.free().call(call17);
         evenElev.free().call(call18);
         emplElev.free().call(call19);
-        evenElev.free().call(call20);
+        emplElev.free().call(call20);
     }
 }
